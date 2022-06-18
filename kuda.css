@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Muli";
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/muli/Muli-Bold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Mulish", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#get {
+  background-color: #40196d;
+  color: #fff;
+  padding: 12px 30px;
+  text-align: center;
+  border-radius: 9px;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 5px rgba(192, 192, 192, 0.596);
+  padding: 10px 0;
+  height: 40px;
+  width: 100%;
+  font-size: 12px;
+}
+header .kuda-logo a {
+  display: block;
+}
+header .kuda-logo a img {
+  width: 150px;
+  height: 70px;
+}
+header .col2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+header .col2 .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .col2 .nav a {
+  margin: 0 15px;
+}
+header .signin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+header .signin a {
+  display: block;
+  margin: 0 20px;
+}
+
+.art {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+}
+.art .left {
+  margin-left: 10vw;
+  width: 30vw;
+}
+.art .left h1 {
+  font-weight: 900;
+  font-size: 37px;
+  color: #40196d;
+  margin: 9px 0;
+}
+.art .left p {
+  line-height: 4vh;
+}
+.art .left .lince {
+  margin: 10px 0;
+}
+.art .left .lince p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+  margin-bottom: 40px;
+}
+.art .left .lince p img {
+  width: 40px;
+}/*# sourceMappingURL=kuda.css.map */
