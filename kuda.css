@@ -5,23 +5,31 @@
   src: url("./fonts/muli/Muli-Bold.ttf");
 }
 * {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 body {
   background-color: #fff;
   font-family: "Mulish", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
+  color: #40196d;
+}
+
+main {
+  width: 80vw;
+  margin: 100px auto 0;
 }
 
 #get {
   background-color: #40196d;
   color: #fff;
-  padding: 12px 30px;
+  font-weight: 500;
+  padding: 12px 40px;
   text-align: center;
   border-radius: 9px;
 }
@@ -39,7 +47,7 @@ header {
   align-items: center;
   box-shadow: 0 5px 5px rgba(192, 192, 192, 0.596);
   padding: 10px 0;
-  height: 40px;
+  height: 60px;
   width: 100%;
   font-size: 12px;
 }
@@ -77,34 +85,155 @@ header .signin a {
   margin: 0 20px;
 }
 
+.top-first {
+  width: 30vw;
+}
+
 .art {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   height: 90vh;
+  margin: 50px auto;
 }
 .art .left {
-  margin-left: 10vw;
-  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
 }
 .art .left h1 {
   font-weight: 900;
   font-size: 37px;
   color: #40196d;
   margin: 9px 0;
+  width: 400px;
 }
-.art .left p {
-  line-height: 4vh;
+.art .left .we {
+  width: 400px;
+  line-height: 25px;
 }
 .art .left .lince {
   margin: 10px 0;
 }
 .art .left .lince p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   color: rgba(0, 0, 0, 0.5);
   font-size: 10px;
   margin-bottom: 40px;
 }
 .art .left .lince p img {
-  width: 40px;
+  width: 50px;
+  margin: 0 5px;
+}
+.art .left .lince p img:first-child {
+  width: 25px;
+}
+
+.container {
+  display: grid;
+  padding: 15px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 25px;
+  height: auto;
+  margin: 20vh auto;
+}
+.container img {
+  margin: 20px 0;
+}
+
+.apt {
+  padding: 0 30px 30px;
+  height: auto;
+  width: auto;
+  color: #40196d;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-shadow: 0 0 5px 4px hsla(270deg, 50%, 88%, 0.281);
+  font-size: 12px;
+}
+
+.first {
+  grid-area: 1/1/4/5;
+}
+
+.second {
+  grid-area: 1/5/4/9;
+}
+
+.third {
+  grid-area: 1/9/4/13;
+}
+
+.fourth {
+  grid-area: 4/3/7/7;
+}
+
+.fifth {
+  grid-area: 4/7/7/11;
+}
+
+.zero {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin: 20px 0;
+}
+.zero .leftie {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.zero .leftie .top {
+  width: 300px;
+  color: #40196d;
+  font-weight: 900;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.zero .leftie .top .we-do {
+  margin-top: 5px;
+}
+.zero .leftie .middle {
+  margin: 30px 0;
+  width: 440px;
+  line-height: 23px;
+}
+.zero .leftie .bottom {
+  color: #40196d;
+  margin: 30px 0 0;
+}
+.zero .leftie .bottom a {
+  text-decoration: underline;
+}
+
+.enjoy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  height: 100vh;
+}
+.enjoy .right {
+  width: 50%;
+  margin-left: 100px;
+}
+.enjoy .right .top {
+  color: #40196d;
+  font-size: 30px;
+  font-weight: 900;
+  width: 450px;
+  margin: 20px 0;
 }/*# sourceMappingURL=kuda.css.map */
