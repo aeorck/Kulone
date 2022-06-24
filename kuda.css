@@ -227,13 +227,32 @@ header .signin a {
   height: 100vh;
 }
 .enjoy .right {
-  width: 50%;
+  width: 420px;
   margin-left: 100px;
 }
 .enjoy .right .top {
   color: #40196d;
   font-size: 30px;
   font-weight: 900;
-  width: 450px;
+  width: 420px;
   margin: 20px 0;
+}
+.enjoy .right .link {
+  margin-top: 40px;
+  display: block;
+  font-weight: 400;
+  color: #40196d;
+}
+.enjoy .right .link a {
+  text-decoration: underline;
+}
+.enjoy:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+.enjoy:nth-of-type(odd) .right {
+  margin-left: 0;
+  width: 450px;
+}
+.enjoy:nth-of-type(odd) .right .top {
+  width: inherit;
 }/*# sourceMappingURL=kuda.css.map */
