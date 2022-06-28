@@ -351,7 +351,7 @@ header .signin a {
 }
 
 .dont {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
 }
 .dont .word {
@@ -376,9 +376,10 @@ header .signin a {
 
 .news {
   width: 90vw;
-  height: 50vh;
+  height: 40vh;
   margin: 0 auto;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .news a img {
@@ -387,4 +388,13 @@ header .signin a {
 }
 .news a img:hover {
   filter: none;
+}
+.news a:first-child img {
+  width: 90px;
+}
+.news a .big {
+  width: 140px;
+}
+.news a .small {
+  width: 70px;
 }/*# sourceMappingURL=kuda.css.map */
