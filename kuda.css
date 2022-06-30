@@ -483,7 +483,7 @@ header .signin a {
 }
 .freedom .rows {
   display: flex;
-  border: 1px solid green;
+  border: 1px solid rgb(228, 238, 228);
   justify-content: space-evenly;
   height: 10px;
   padding: 20px 0;
@@ -492,4 +492,4 @@ header .signin a {
 .freedom .rows .col {
   width: 33.33%;
   font-size: 15px;
-}
+}/*# sourceMappingURL=kuda.css.map */
