@@ -506,7 +506,21 @@ header .signin a {
   width: 33.33%;
   font-size: 13px;
   color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.freedom .rows .in-row .col img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 .freedom .rows .in-row .trans {
   font-weight: 600;
+}
+
+.getapp {
+  width: 80%;
+  background-color: #eff1ff;
+  margin: 0 auto;
+  height: 50vh;
 }/*# sourceMappingURL=kuda.css.map */
