@@ -444,6 +444,7 @@ header .signin a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .freedom .choose {
   font-size: 30px;
@@ -459,17 +460,18 @@ header .signin a {
   height: 100vh;
   margin-top: 50px;
   border-radius: 9px;
+  box-shadow: 5px 5px 10px #ededef;
 }
 .freedom .first {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
-  padding: 40px 0;
-  justify-content: space-evenly;
+  padding: 34px 0;
+  justify-content: space-between;
   border-bottom: 1px solid #ededef;
   align-items: flex-end;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 .freedom .first .row {
@@ -483,13 +485,19 @@ header .signin a {
 }
 .freedom .rows {
   display: flex;
-  border: 1px solid rgb(228, 238, 228);
-  justify-content: space-evenly;
-  height: 10px;
-  padding: 20px 0;
+  padding: 15px;
   border-bottom: 1px solid #ededef;
 }
-.freedom .rows .col {
+.freedom .rows .in-row {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+.freedom .rows .in-row .col {
   width: 33.33%;
-  font-size: 15px;
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+}
+.freedom .rows .in-row .trans {
+  font-weight: bold;
 }/*# sourceMappingURL=kuda.css.map */
