@@ -436,6 +436,15 @@ header .signin a {
 .newspartners .partners .partner img:hover:first-child {
   opacity: 0.6;
 }
+.newspartners .partners .partner .entre {
+  width: 250px;
+}
+.newspartners .partners .partner .sbi {
+  width: 130px;
+}
+.newspartners .partners .partner .target, .newspartners .partners .partner .visa {
+  width: 100px;
+}
 
 .freedom {
   width: 90vw;
