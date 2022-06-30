@@ -404,10 +404,12 @@ header .signin a {
 }
 .newspartners .partners {
   height: 50vh;
+  background-color: #fbfbfb;
   display: flex;
-  width: 80vw;
-  margin: 0 auto;
+  width: 100%;
+  margin: 30px auto;
   display: flex;
+  padding-top: 70px;
   flex-direction: column;
 }
 .newspartners .partners .ourpartner {
@@ -418,6 +420,8 @@ header .signin a {
 }
 .newspartners .partners .partner {
   display: flex;
+  width: 80%;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
   margin-top: 70px;
@@ -448,13 +452,44 @@ header .signin a {
   margin: 0 auto;
   width: auto;
 }
-.freedom table {
+.freedom .freed {
   width: 80vw;
   margin: 0 auto;
-  border: red 1px solid;
-  height: 50vh;
+  border: #ededef 1px solid;
+  height: 100vh;
+  margin-top: 50px;
+  border-radius: 9px;
 }
-.freedom th, .freedom td {
-  height: 20px;
-  border: 1px solid blue;
+.freedom .first {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #ededef;
+  align-items: flex-end;
+  width: 80%;
+  margin: 0 auto;
+}
+.freedom .first .row {
+  width: 33.33%;
+  font-size: 20px;
+  color: #40196d;
+  font-weight: 900;
+}
+.freedom .first .row img {
+  width: 30%;
+}
+.freedom .rows {
+  display: flex;
+  border: 1px solid green;
+  justify-content: space-evenly;
+  height: 10px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ededef;
+}
+.freedom .rows .col {
+  width: 33.33%;
+  font-size: 15px;
 }/*# sourceMappingURL=kuda.css.map */
