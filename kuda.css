@@ -491,6 +491,7 @@ header .signin a {
 }
 .freedom .first .row img {
   width: 30%;
+  -webkit-user-drag: none;
 }
 .freedom .rows {
   display: flex;
@@ -508,11 +509,21 @@ header .signin a {
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
 }
 .freedom .rows .in-row .col img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
 }
 .freedom .rows .in-row .trans {
   font-weight: 600;
@@ -522,5 +533,9 @@ header .signin a {
   width: 80%;
   background-color: #eff1ff;
   margin: 0 auto;
-  height: 50vh;
+  height: 50%;
+}
+.getapp in-box {
+  display: flex;
+  width: 100%;
 }/*# sourceMappingURL=kuda.css.map */
