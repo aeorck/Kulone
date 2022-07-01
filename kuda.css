@@ -442,7 +442,8 @@ header .signin a {
 .newspartners .partners .partner .sbi {
   width: 130px;
 }
-.newspartners .partners .partner .target, .newspartners .partners .partner .visa {
+.newspartners .partners .partner .target,
+.newspartners .partners .partner .visa {
   width: 100px;
 }
 
@@ -520,10 +521,10 @@ header .signin a {
   height: 20px;
   margin-right: 10px;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
 }
 .freedom .rows .in-row .trans {
   font-weight: 600;
