@@ -475,7 +475,7 @@ header .signin a {
   height: 100vh;
   margin-top: 50px;
   border-radius: 9px;
-  box-shadow: 5px 5px 10px #ededef;
+  box-shadow: 2px 2px 15px 0 #d6d6d6;
 }
 .freedom .first {
   height: -webkit-fit-content;
@@ -497,12 +497,14 @@ header .signin a {
 }
 .freedom .first .row img {
   width: 30%;
-  -webkit-user-drag: none;
 }
 .freedom .rows {
   display: flex;
   padding: 15px;
   border-bottom: 1px solid #ededef;
+}
+.freedom .rows:last-child {
+  border: none;
 }
 .freedom .rows .in-row {
   width: 90%;
@@ -538,10 +540,11 @@ header .signin a {
 .getapp {
   width: 80%;
   background-color: #eff1ff;
-  margin: 0 auto;
-  height: 50%;
-  border: 1px solid red;
-  padding: 10px;
+  margin: 13px auto;
+  height: 350px;
+  border: 1px solid rgba(179, 177, 177, 0.404);
+  padding-top: 40px;
+  border-radius: 6px;
 }
 .getapp .in-box {
   display: flex;
@@ -550,13 +553,15 @@ header .signin a {
 }
 .getapp .in-box .left {
   width: 45%;
+  height: auto;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding-left: 50px;
 }
 .getapp .in-box .left .top h1 {
   color: #40196d;
   margin-bottom: 24px;
+  font-weight: 900;
 }
 .getapp .in-box .left .middle {
   font-weight: 400;
