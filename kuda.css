@@ -540,8 +540,43 @@ header .signin a {
   background-color: #eff1ff;
   margin: 0 auto;
   height: 50%;
+  border: 1px solid red;
+  padding: 10px;
 }
-.getapp in-box {
+.getapp .in-box {
   display: flex;
   width: 100%;
+  flex-direction: row;
+}
+.getapp .in-box .left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.getapp .in-box .left .top h1 {
+  color: #40196d;
+  margin-bottom: 24px;
+}
+.getapp .in-box .left .middle {
+  font-weight: 400;
+  font-size: 14px;
+}
+.getapp .in-box .left .middle .lince {
+  margin: 10px 0;
+}
+.getapp .in-box .left .middle .lince p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.getapp .in-box .left .middle .lince p img {
+  width: 50px;
+  margin: 0 5px;
+}
+.getapp .in-box .left .middle .lince p img:first-child {
+  width: 25px;
 }/*# sourceMappingURL=kuda.css.map */
