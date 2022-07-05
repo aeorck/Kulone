@@ -595,44 +595,74 @@ header .signin a {
 .gatsby .getapp .in-box .left .middle .lince p img:first-child {
   width: 25px;
 }
-.feat-company {
+.flow {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.flow .feat-company {
   margin-top: 30px;
   padding-top: 50px;
-  width: 80%;
-  height: 500px;
-  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
 }
-.feat-company .logo,
-.feat-company .feat,
-.feat-company .comp, .feat-company .help, .feat-company .trans {
+.flow .feat-company .logo,
+.flow .feat-company .feat,
+.flow .feat-company .comp,
+.flow .feat-company .help,
+.flow .feat-company .trans {
   width: 200px;
   height: auto;
   display: flex;
   flex-direction: column;
   font-size: 12px;
 }
-.feat-company .logo .top,
-.feat-company .feat .top,
-.feat-company .comp .top, .feat-company .help .top, .feat-company .trans .top {
+.flow .feat-company .logo .top,
+.flow .feat-company .feat .top,
+.flow .feat-company .comp .top,
+.flow .feat-company .help .top,
+.flow .feat-company .trans .top {
   color: #40196d;
   font-weight: 700;
   font-size: 15px;
 }
-.feat-company .logo .link,
-.feat-company .feat .link,
-.feat-company .comp .link, .feat-company .help .link, .feat-company .trans .link {
+.flow .feat-company .logo .link,
+.flow .feat-company .feat .link,
+.flow .feat-company .comp .link,
+.flow .feat-company .help .link,
+.flow .feat-company .trans .link {
   margin-top: 15px;
   font-weight: 400;
 }
-.feat-company .logo .link a,
-.feat-company .feat .link a,
-.feat-company .comp .link a, .feat-company .help .link a, .feat-company .trans .link a {
+.flow .feat-company .logo .link a,
+.flow .feat-company .feat .link a,
+.flow .feat-company .comp .link a,
+.flow .feat-company .help .link a,
+.flow .feat-company .trans .link a {
   color: black;
 }
-.feat-company .logo img,
-.feat-company .feat img,
-.feat-company .comp img, .feat-company .help img, .feat-company .trans img {
+.flow .feat-company .logo img,
+.flow .feat-company .feat img,
+.flow .feat-company .comp img,
+.flow .feat-company .help img,
+.flow .feat-company .trans img {
   width: 100px;
+}
+.flow .download {
+  display: flex;
+  flex-direction: row;
+}
+.flow .download a {
+  margin: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.flow .download a img {
+  width: 85%;
 }/*# sourceMappingURL=kuda.css.map */
