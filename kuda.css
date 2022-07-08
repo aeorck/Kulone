@@ -3,6 +3,26 @@
   margin: 0;
 }
 
+body {
+  position: relative;
+}
+
+.tusk {
+  position: absolute;
+  background-color: rgba(152, 134, 173, 0.5607843137);
+  width: 100%;
+  margin: 0 auto;
+  height: 900px;
+  z-index: 2;
+  top: 1;
+  display: none;
+}
+
+svg {
+  margin-right: 10px;
+  width: 20px;
+}
+
 .flag {
   background-color: #b5dccc;
   width: 32px;
@@ -153,6 +173,9 @@ header .col2 .nav .hon .pap .cont .marg a img {
 }
 header .col2 .nav .hon .pap:hover .cont {
   display: block;
+}
+header .col2 .nav .hon .pap:hover .tusk {
+  display: none;
 }
 header .col2 .nav .hon .pap img {
   width: 10px;
@@ -436,6 +459,15 @@ header .signin a {
 .newspartners .partners .partner img:hover:first-child {
   opacity: 0.6;
 }
+.newspartners .partners .partner .entre {
+  width: 250px;
+}
+.newspartners .partners .partner .sbi {
+  width: 130px;
+}
+.newspartners .partners .partner .target, .newspartners .partners .partner .visa {
+  width: 100px;
+}
 
 .freedom {
   width: 90vw;
@@ -444,6 +476,7 @@ header .signin a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .freedom .choose {
   font-size: 30px;
@@ -459,17 +492,18 @@ header .signin a {
   height: 100vh;
   margin-top: 50px;
   border-radius: 9px;
+  box-shadow: 2px 2px 15px 0 #d6d6d6;
 }
 .freedom .first {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
-  padding: 40px 0;
-  justify-content: space-evenly;
+  padding: 34px 0;
+  justify-content: space-between;
   border-bottom: 1px solid #ededef;
   align-items: flex-end;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 .freedom .first .row {
@@ -483,13 +517,206 @@ header .signin a {
 }
 .freedom .rows {
   display: flex;
-  border: 1px solid rgb(228, 238, 228);
-  justify-content: space-evenly;
-  height: 10px;
-  padding: 20px 0;
+  padding: 15px;
   border-bottom: 1px solid #ededef;
 }
-.freedom .rows .col {
+.freedom .rows:last-child {
+  border: none;
+}
+.freedom .rows .in-row {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+.freedom .rows .in-row .col {
   width: 33.33%;
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.freedom .rows .in-row .col img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.freedom .rows .in-row .trans {
+  font-weight: 600;
+}
+
+.gatsby {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #cecfda;
+  padding-bottom: 8%;
+  margin-bottom: 30px;
+}
+.gatsby .getapp {
+  width: 83%;
+  background-color: #eff1ff;
+  margin: 13px auto;
+  height: 435px;
+  border: 1px solid rgba(179, 177, 177, 0.404);
+  padding-top: 40px;
+  border-radius: 6px;
+}
+.gatsby .getapp .in-box {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gatsby .getapp .in-box .left {
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.gatsby .getapp .in-box .left .top h1 {
+  color: #40196d;
+  margin-bottom: 24px;
+  font-weight: 900;
+}
+.gatsby .getapp .in-box .left .middle {
+  font-weight: 400;
+  font-size: 14px;
+}
+.gatsby .getapp .in-box .left .middle .lince {
+  margin: 10px 0;
+}
+.gatsby .getapp .in-box .left .middle .lince p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.gatsby .getapp .in-box .left .middle .lince p img {
+  width: 50px;
+  margin: 0 5px;
+}
+.gatsby .getapp .in-box .left .middle .lince p img:first-child {
+  width: 25px;
+}
+
+.flow {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.flow .feat-company {
+  margin-top: 30px;
+  padding-top: 50px;
+  width: 100%;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.flow .feat-company .logo, .flow .feat-company .feat, .flow .feat-company .comp, .flow .feat-company .help, .flow .feat-company .trans {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.flow .feat-company .logo .top, .flow .feat-company .feat .top, .flow .feat-company .comp .top, .flow .feat-company .help .top, .flow .feat-company .trans .top {
+  color: #40196d;
+  font-weight: 700;
   font-size: 15px;
-}/*# sourceMappingURL=kuda.css.map */
+}
+.flow .feat-company .logo .link, .flow .feat-company .feat .link, .flow .feat-company .comp .link, .flow .feat-company .help .link, .flow .feat-company .trans .link {
+  margin-top: 15px;
+  font-weight: 400;
+}
+.flow .feat-company .logo .link a, .flow .feat-company .feat .link a, .flow .feat-company .comp .link a, .flow .feat-company .help .link a, .flow .feat-company .trans .link a {
+  color: black;
+}
+.flow .feat-company .logo img, .flow .feat-company .feat img, .flow .feat-company .comp img, .flow .feat-company .help img, .flow .feat-company .trans img {
+  width: 100px;
+}
+.flow .download {
+  display: flex;
+  flex-direction: row;
+}
+.flow .download a {
+  margin: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.flow .download a img {
+  width: 85%;
+}
+
+.product {
+  margin: 10px auto;
+  color: #a0a0a0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 13px;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+footer .contact {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+footer .contact .us {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-right: 140px;
+}
+footer .contact .us h3 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #40196d;
+}
+footer .contact .us h3 a {
+  text-decoration: underline;
+}
+footer .contact .us .social-media {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid slateblue;
+  padding: 30px;
+}
+footer .contact .us .address {
+  font-size: 14px;
+}
+footer .what-do {
+  color: #a0a0a0;
+  font-size: 12.3px;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 30px;
+}
+footer .what-do p {
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=kuda.css.map *//*# sourceMappingURL=kuda.css.map */
