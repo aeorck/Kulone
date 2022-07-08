@@ -3,6 +3,21 @@
   margin: 0;
 }
 
+body {
+  position: relative;
+}
+
+.tusk {
+  position: absolute;
+  background-color: rgba(152, 134, 173, 0.5607843137);
+  width: 100%;
+  margin: 0 auto;
+  height: 900px;
+  z-index: 2;
+  top: 1;
+  display: none;
+}
+
 svg {
   margin-right: 10px;
   width: 20px;
@@ -158,6 +173,9 @@ header .col2 .nav .hon .pap .cont .marg a img {
 }
 header .col2 .nav .hon .pap:hover .cont {
   display: block;
+}
+header .col2 .nav .hon .pap:hover .tusk {
+  display: none;
 }
 header .col2 .nav .hon .pap img {
   width: 10px;
@@ -678,11 +696,12 @@ header .signin a {
 
 footer {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 footer .contact {
   width: 80%;
-  height: 400px;
   margin: 0 auto;
+  margin-bottom: 30px;
   display: flex;
   justify-content: flex-start;
 }
@@ -708,4 +727,14 @@ footer .contact .us .social-media {
 }
 footer .contact .us .address {
   font-size: 14px;
+}
+footer .what-do {
+  color: #a0a0a0;
+  font-size: 12px;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 30px;
+}
+footer .what-do p {
+  margin-top: 5px;
 }/*# sourceMappingURL=kuda.css.map */
